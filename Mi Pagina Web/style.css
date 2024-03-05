@@ -1,0 +1,158 @@
+/* este import se usa para importar las fuentes de los textos */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700; 1,900&display=intercambio');
+
+
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 50px;
+    margin:100 0;
+  }
+
+  .volver-inicio {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 50px;
+    margin:100 0;
+  }
+h2  {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 30;
+        margin:16px 0;
+      }
+
+
+footer{
+    font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 35;
+}
+
+body{font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: medium;
+    margin: 10px 0;
+}  
+
+b{
+    font-weight: bold;
+}
+
+.ul-margin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30;
+    margin:16px 0;
+}
+
+h3 {font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 30;
+    margin:16px 0;}
+
+
+  /* -------fuentes-------*/
+header{
+    color: black;
+    background-color: #2D9596;
+    box-shadow: 3px 3px 50px;
+    padding: 30px;
+    margin-bottom: 40px;
+    background-image: linear-gradient(#2D9596,#104141);
+
+}
+    
+
+.navegador ul {
+    display: flex;
+    gap: 16px;
+
+}
+.navegador ul li a {
+    display: block;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+
+}
+.navegador ul li a:hover {
+    background-color: gray;
+}
+
+
+.container {
+    width: 1200px;
+
+}
+
+.d-flex {
+    display: flex;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.items-end {
+    align-items: end;
+}
+.items-center {
+    align-items:center;
+}
+.m-auto {
+    margin: auto;
+}
+body {
+    background-image: linear-gradient(#85cfbb,#afddd1);
+}
+footer{
+    background-image: linear-gradient(#2D9596,#104141);
+}
+
+
+.block-righ {
+    display:flex
+    
+
+}
+.wrap{
+    flex-wrap: wrap;
+}
+
+.right {
+    float: right;
+}
+.left{
+    float: left;
+}
+
+.tamaño-footer{
+    width: 200px;
+    display: flex;
+}
+
+.boton-pagina-principal{
+    display: block;
+    padding: 4px;
+    background-color: #2D9596;
+    color: white;
+    border-radius: 800px;
+    text-decoration: none;
+}
+
+.letra-footer{
+    font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+
+        
+}
